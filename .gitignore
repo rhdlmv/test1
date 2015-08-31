@@ -3,3 +3,4 @@ Bin/
 *.user
 *.xap
 packages/
+*.suo
