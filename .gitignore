@@ -1,0 +1,5 @@
+obj/
+Bin/
+*.user
+*.xap
+packages/

@@ -1,0 +1,69 @@
+﻿<ResourceDictionary  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                     xmlns:local="clr-namespace:ImageTips">
+    <Style TargetType="local:ImageTips">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="local:ImageTips">
+                    <Grid x:Name="Panel"
+                          Background="Transparent"
+                          Width="{TemplateBinding Width}"
+                          Height="{TemplateBinding Height}">
+                        <!--<Grid.RowDefinitions>
+                            <RowDefinition x:Name="RowBack"
+                                           Height="20" />
+                            <RowDefinition x:Name="RowContent"
+                                           Height="*" />
+                            <RowDefinition x:Name="RowNext"
+                                           Height="20" />
+                        </Grid.RowDefinitions>-->
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="20" />
+                            <ColumnDefinition  />
+                            <ColumnDefinition Width="20" />
+                        </Grid.ColumnDefinitions>
+                        <HyperlinkButton HorizontalAlignment="Center"
+                                         VerticalAlignment="Center"
+                                         Height="20"
+                                         x:Name="BackBtn"
+                                         IsTabStop="False"
+                                         >
+                            <HyperlinkButton.Content>
+                                <Image Source="/ImageTips;component/Images/previous.png" />
+                            </HyperlinkButton.Content>
+                        </HyperlinkButton>
+                        <Canvas Background="Transparent"
+                                x:Name="MainFrame"
+                                Grid.Column="1"
+                                Width="{TemplateBinding Width}"
+                               > <!--Cursor="Hand"-->
+                            <Canvas.Clip>
+                                <RectangleGeometry RadiusX="10"
+                                                   RadiusY="10" />
+                            </Canvas.Clip>
+                            <StackPanel x:Name="PanelHost"
+                                        Orientation="Horizontal"
+                                        Background="White"><!--#FF52555A-->
+                                <StackPanel.RenderTransform>
+                                    <TranslateTransform X="0"
+                                                        Y="0"
+                                                        x:Name="ScaleMove" />
+                                </StackPanel.RenderTransform>
+                            </StackPanel>
+                        </Canvas>
+                        <HyperlinkButton HorizontalAlignment="Center"
+                                         VerticalAlignment="Center"
+                                         x:Name="NextBtn"
+                                         Height="20"
+                                         IsTabStop="False"
+                                         Grid.Column="2">
+                            <HyperlinkButton.Content>
+                                <Image Source="/ImageTips;component/Images/next.png" />
+                            </HyperlinkButton.Content>
+                        </HyperlinkButton>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>
