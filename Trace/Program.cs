@@ -13,8 +13,8 @@ namespace Trace1
     {
         static void Main(string[] args)
         {
-            //Trace.Listeners.Clear();
-            //Trace.Listeners.Add(new MyTraceListener());
+            Trace.Listeners.Clear();
+            Trace.Listeners.Add(new MyTraceListener(@"G:\"));
 
             try
             {

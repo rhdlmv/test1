@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -33,6 +34,17 @@ namespace Object_Distinct
     {
         public static IEnumerable<TSource> Distinct<TSource, TKey>(this IEnumerable<TSource> source, Func<TSource, TKey> keySelector)
         {
+            //Dictionary<TKey, TKey> seenKeys = new Dictionary<TKey, TKey>();
+            //Hashtable seenKeys = new Hashtable();
+            //foreach (TSource element in source)
+            //{
+            //    var elementValue = keySelector(element);
+            //    if (!seenKeys.ContainsKey(elementValue))
+            //    {
+            //        seenKeys.Add(elementValue, elementValue);
+            //        yield return element;
+            //    }
+            //}
             HashSet<TKey> seenKeys = new HashSet<TKey>();
             foreach (TSource element in source)
             {
