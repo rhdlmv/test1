@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Func_Test", "Func_Test\Func
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Object Distinct", "Object Distinct\Object Distinct.csproj", "{6011E3E6-0510-46F1-8EF3-ECDBD0027CE8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ioc_Autofac", "IOC-Autofac\Ioc_Autofac.csproj", "{EA9AC699-31A1-4586-9103-D0A7DC7E84DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -137,6 +139,10 @@ Global
 		{6011E3E6-0510-46F1-8EF3-ECDBD0027CE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6011E3E6-0510-46F1-8EF3-ECDBD0027CE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6011E3E6-0510-46F1-8EF3-ECDBD0027CE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA9AC699-31A1-4586-9103-D0A7DC7E84DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA9AC699-31A1-4586-9103-D0A7DC7E84DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA9AC699-31A1-4586-9103-D0A7DC7E84DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA9AC699-31A1-4586-9103-D0A7DC7E84DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
