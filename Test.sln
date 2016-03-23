@@ -49,6 +49,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Object Distinct", "Object D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ioc_Autofac", "IOC-Autofac\Ioc_Autofac.csproj", "{EA9AC699-31A1-4586-9103-D0A7DC7E84DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlConnection", "SqlConnection\SqlConnection.csproj", "{2564528C-45E7-4612-8B9B-105838287F92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonT", "PersonT\PersonT.csproj", "{4A29A431-BEB0-41F4-8789-F18A310AAA70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -143,6 +147,14 @@ Global
 		{EA9AC699-31A1-4586-9103-D0A7DC7E84DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA9AC699-31A1-4586-9103-D0A7DC7E84DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA9AC699-31A1-4586-9103-D0A7DC7E84DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2564528C-45E7-4612-8B9B-105838287F92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2564528C-45E7-4612-8B9B-105838287F92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2564528C-45E7-4612-8B9B-105838287F92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2564528C-45E7-4612-8B9B-105838287F92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A29A431-BEB0-41F4-8789-F18A310AAA70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A29A431-BEB0-41F4-8789-F18A310AAA70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A29A431-BEB0-41F4-8789-F18A310AAA70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A29A431-BEB0-41F4-8789-F18A310AAA70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

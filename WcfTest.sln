@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tcpTracer_test", "tcpTracer_test", "{6EC0EFEA-142C-4454-A7F4-04B679C914C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cammunication_with_binding", "cammunication_with_binding", "{A24DDC3B-7A9E-4A1B-A4E1-C2E70B366800}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Listener", "Listener\Listener.csproj", "{9F0E21A2-00EB-4A43-A119-6992ABA1003F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sender", "Sender\Sender.csproj", "{AD37BDC6-C0DC-45A8-A6A0-204DAECDC092}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F0E21A2-00EB-4A43-A119-6992ABA1003F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F0E21A2-00EB-4A43-A119-6992ABA1003F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F0E21A2-00EB-4A43-A119-6992ABA1003F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F0E21A2-00EB-4A43-A119-6992ABA1003F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD37BDC6-C0DC-45A8-A6A0-204DAECDC092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD37BDC6-C0DC-45A8-A6A0-204DAECDC092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD37BDC6-C0DC-45A8-A6A0-204DAECDC092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD37BDC6-C0DC-45A8-A6A0-204DAECDC092}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9F0E21A2-00EB-4A43-A119-6992ABA1003F} = {A24DDC3B-7A9E-4A1B-A4E1-C2E70B366800}
+		{AD37BDC6-C0DC-45A8-A6A0-204DAECDC092} = {A24DDC3B-7A9E-4A1B-A4E1-C2E70B366800}
+	EndGlobalSection
+EndGlobal
