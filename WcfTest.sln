@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Listener", "Listener\Listen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sender", "Sender\Sender.csproj", "{AD37BDC6-C0DC-45A8-A6A0-204DAECDC092}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "custom_channel", "custom_channel", "{3ED7D806-F1BB-498B-AD71-C0F5DC4D93B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomChannels", "CustomChannels\CustomChannels.csproj", "{27A90097-A8F2-48D8-883F-E01D2BBDF2E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{AD37BDC6-C0DC-45A8-A6A0-204DAECDC092}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD37BDC6-C0DC-45A8-A6A0-204DAECDC092}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD37BDC6-C0DC-45A8-A6A0-204DAECDC092}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27A90097-A8F2-48D8-883F-E01D2BBDF2E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27A90097-A8F2-48D8-883F-E01D2BBDF2E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27A90097-A8F2-48D8-883F-E01D2BBDF2E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27A90097-A8F2-48D8-883F-E01D2BBDF2E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,5 +40,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{9F0E21A2-00EB-4A43-A119-6992ABA1003F} = {A24DDC3B-7A9E-4A1B-A4E1-C2E70B366800}
 		{AD37BDC6-C0DC-45A8-A6A0-204DAECDC092} = {A24DDC3B-7A9E-4A1B-A4E1-C2E70B366800}
+		{27A90097-A8F2-48D8-883F-E01D2BBDF2E3} = {3ED7D806-F1BB-498B-AD71-C0F5DC4D93B7}
 	EndGlobalSection
 EndGlobal
